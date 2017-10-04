@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Here is Detroit</title>
+    <link rel="stylesheet" href="styles.css">
+    <style media="screen">
+      .selected
+      {
+        color:red;
+      }
+
+    </style>
+    <div style="text-align: center;">
+  </head>
+  <body>
+    <script type="text/javascript">
+    alert("here is DETROIT!".toUpperCase());
+    </script>
+    <a href="https://en.wikipedia.org/wiki/Detroit" target="_blank"><img src="https://www.tripinfo.com/maps/MI-Detroit.gif" alt=“”/></div></a>
+    <a href="https://images.adsttc.com/media/images/5294/1458/e8e4/4e91/9a00/009f/large_jpg/Detroit_Hudsons_Aerial.jpg?1385436240" target="_blank"><p id="item1" class="item" align = center >DOWNTOWN</P></a>
+    <a href="https://media.npr.org/assets/img/2013/07/28/ap120410069062_wide-9b262a042c8786839f141415135429e4785d3854.jpg?s=1400" target="_blank"><p id="item2" class="item" align = center >MIDTOWN</P></a>
+    <a href="http://www.dailydetroit.com/wp-content/uploads/2015/05/grandprix-belleisle.jpg" target="_blank"><p class="item" align = center >BELLE ISLE</P></a>
+    <a href="http://mamamommymom.com/wp-content/uploads/2016/06/Douglas-DC-3-Henry-Ford-Museum.jpg" target="_blank"><p class="item" align = center >DEARBORN</P></a>
+    <a href="https://en.wikipedia.org/wiki/Detroit" target="_blank"><p id="button" align = center >Click meeee!</P></a>
+
+      <script type="text/javascript">
+        function doSomething()
+        {
+          let items = document.getElementsByClassName("item");
+          for(let a of items)
+          {
+            a.classList.toggle('selected');
+          }
+          alert("here is DETROIT!".toUpperCase());
+        }
+      let button = document.getElementById("button");
+      button.addEventListener("click",doSomething)
+      </script>
+
+
+  </body>
+</html>

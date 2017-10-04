@@ -1,0 +1,21 @@
+html
+    {
+      width:100%;
+      height: 100%;
+    }
+
+body
+    {
+    background-image: url(https://knightfoundation.imgix.net/communities/images/000/000/008/original/downtown.jpg?ixlib=rails-1.1.0&h=460&w=1070&fit=crop&crop=faces,entropy&auto=format);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+#White{color: white;}
+
+p
+  {
+    color: White;
+    font-size: 20px;
+  }
